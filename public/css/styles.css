@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+:where(html) {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+:where(body) {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+  min-height: 100dvh;
+}
